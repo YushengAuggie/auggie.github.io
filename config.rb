@@ -21,7 +21,7 @@ activate :sprockets
 
 set :full_name, "Yusheng Ding"
 set :city, "Auburn, AL, USA"
-set :resume, nil "YushengDingResume.pdf"# Set to filename of resume PDF in source directory.
+set :resume, "YushengDingResume.pdf"# Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-77946967-1"
 
 ###
@@ -31,7 +31,7 @@ set :google_analytics_tracking_id, "UA-77946967-1"
 # To hide one of these profile links, just set it to nil.
 
 # This is the id for your profile URL: https://plus.google.com/https://plus.google.com/110506932842622114536/
-set :google_plus_user_id, "110506932842622114536"
+set :google_plus_user_id, ""
 # This is your shortname for your profile URL: http://facebook.com/ada.lovelace
 set :facebook_profile_name, "davidthinkle.ding"
 set :twitter_username, "ThinkleDing"
@@ -48,7 +48,7 @@ Time.zone = "America/Chicago"
 ## Blog settings
 ###
 
-set :disqus_shortname, "adas-blog"
+set :disqus_shortname, "blog"
 
 activate :blog do |blog|
   blog.prefix = "/blog"
